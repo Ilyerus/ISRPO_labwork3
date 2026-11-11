@@ -1,0 +1,56 @@
+{
+  "name": "isrpo-labwork3-bayramkulovilyas-",
+  "displayName": "ISRPO_labwork3_BayramkulovIlyas ",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.143.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "isrpo-labwork3-bayramkulovilyas-.insertWhile",
+        "title": "Insert While"
+      },
+      {
+        "command": "isrpo-labwork3-bayramkulovilyas-.insertFor",
+        "title": "Insert For"
+      },
+      {
+        "command": "isrpo-labwork3-bayramkulovilyas-.insertIf",
+        "title": "Insert If"
+      },
+      {
+        "command": "isrpo-labwork3-bayramkulovilyas-.dublicatePrevLine",
+        "title": "Dublicate Previous Line"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.143.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "24.x",
+    "typescript-eslint": "^8.61.1",
+    "eslint": "^10.5.0",
+    "typescript": "^6.0.3",
+    "@vscode/test-cli": "^0.0.15",
+    "@vscode/test-electron": "^3.0.0"
+  },
+  "overrides": {
+    "diff": "^8.0.4",
+    "serialize-javascript": "^7.0.6"
+  }
+}
