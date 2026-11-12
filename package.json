@@ -29,6 +29,24 @@
         "command": "isrpo-labwork3-bayramkulovilyas-.dublicatePrevLine",
         "title": "Dublicate Previous Line"
       }
+    ],
+    "keybindings":[
+      {
+        "command": "isrpo-labwork3-bayramkulovilyas-.insertIf",
+        "key": "ctrl+alt+shift+i"
+      },
+      {
+        "command": "isrpo-labwork3-bayramkulovilyas-.insertFor",
+        "key": "ctrl+alt+shift+f"
+      },
+      {
+        "command": "isrpo-labwork3-bayramkulovilyas-.insertWhile",
+        "key": "ctrl+alt+shift+w"
+      },
+      {
+        "command": "isrpo-labwork3-bayramkulovilyas-.dublicatePrevLine",
+        "key": "ctrl+alt+shift+c"
+      }
     ]
   },
   "scripts": {
